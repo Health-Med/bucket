@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucket" {
-  bucket = "healthbucket"
+  bucket = "healthmedbucket"
 }
 
 resource "aws_s3_bucket_versioning" "versioning" {
